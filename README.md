@@ -1,5 +1,7 @@
 # Antibiotic Drug Resistance in Bacteria
-CS 725 / 825 Visualization Project Report
+CS 725 / 825 Visualization Project Report  
+[Open Notebook](https://observablehq.com/d/f6f919e850bc1d73)
+
 ## Introduction
 
 I’m currently collaborating on a project to identify the presence of antibiotic drug resistant bacteria in blood specimens acquired from human subjects. In this collaboration, I apply machine learning techniques on microscopic images of blood specimens to make clinically-relevant predictions. While this is a classic ML problem, visualizing the statistics of collected specimens helps to

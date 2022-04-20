@@ -170,7 +170,7 @@ Here too, if a user selects a particular strain from the legend, the bars that r
 ### Row 2
 In this row, I concatenate all charts that visualize data at specimen level. Each chart in this row has a color encoding for the "species" attribute. Therefore, similar to Row 1, only one right-most legend was populated instead of having multiple legends showing the same data. This also made it possible to directly use the "species" legend as a point of interaction. 
 #### Chart 1
-* Mark(s) - Bars
+* Mark(s) - Bars, Ticks
 * Channels(s) - Species (color), Specimen (bar), Cell Count (bar width)
 
 Since "cell_count" is a quantitative attribute, I used it to populate the bar width. Since "specimen" is a nominal attribute, I generated a bar for each species. I encoded "species" as the bar color, and sorted the bars in the descending order of "cell_count". The goal of doing so was to enable users to immediately know which specimen had the most number of bacteria cells (based on ordering and length), and whether or not two specimens are from the same species (based on color). I also offset the y-axis labels to overlay the bars, so that it does not consume unneeded space on the left.
